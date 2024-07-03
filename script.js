@@ -25,4 +25,5 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftechcrunch.com
         li.appendChild(p2);
         newList.appendChild(li);
     });
-});
+})
+.catch(error => console.log(error));
