@@ -27,3 +27,18 @@ a {
 a:hover {
     text-decoration: underline;
 }
+#news-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    background-color: #dc2626;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 16px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: #b91c1c;
+}
